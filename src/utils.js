@@ -1,0 +1,24 @@
+const HANDS = ['rock', 'scissor', 'paper'];
+
+
+const WINS = {
+    rock: 'scissor',
+    scissor: 'paper',
+    paper: 'rock',
+};
+
+export function compareHand(left, right){
+    if (WINS[left] === right) return 1;
+    else if(left === WINS[right]) return -1;
+    return 0;
+}
+
+function random(n) {
+    return Math.floor(Math.random() * n);
+}
+
+export function generateRandomHand(){
+    const idx = random(HANDS.length);
+    return HANDS[idx];
+}
+

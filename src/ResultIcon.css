@@ -1,0 +1,21 @@
+.Hand {
+    display: inline-block;
+    width: 207px;
+    height: 207px;
+    text-align: center;
+    background-image: url(./assets/yellow.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+  }
+
+  .Hand-winner {
+    display: inline-block;
+    width: 207px;
+    height: 207px;
+    text-align: center;
+    background-image: url(./assets/yellow-win.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+  }
