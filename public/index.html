@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-< lang="ko">
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/ico" href="./assets/favicon.ico" />
@@ -15,8 +15,8 @@
   </body>
   <script>
     //브라우저에서 Service Worker를 지원한다면 등록한다.
-    if('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('../src/service-worker.js')
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('../service-worker.js');
     }
   </script>
 </html>
