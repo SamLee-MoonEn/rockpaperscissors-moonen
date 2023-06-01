@@ -1,5 +1,3 @@
-import * as serviceWorkerRegistration from './serviceWorkerRegistration'
-
 import ReactDOM from 'react-dom/client';
 import App from './App.js'
 import './index.css'
