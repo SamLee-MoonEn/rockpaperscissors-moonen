@@ -6,7 +6,7 @@
   text-align: center;
   cursor: pointer;
   background-color: transparent;
-  background-image: url("./assets/purple.svg");
+  background-image: url('./assets/purple.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -19,7 +19,7 @@
 }
 
 .HandButton:hover {
-  background-image: url("./assets/yellow.svg");
+  background-image: url('./assets/yellow.svg');
 }
 
 .HandButton:hover .HandButton-icon {
